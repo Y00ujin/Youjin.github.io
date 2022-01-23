@@ -1,223 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youjin</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youjin</title>
 
-    <style>
-        body{
-            padding-top: 100px;
-            padding-bottom: 500px;
-        }
+        <style>
+            body{
+                padding-top: 100px;
+                padding-bottom: 500px;
+            }
 
-        h1{
-            position: relative;
-            top: 60px;
-            width: 800px;
-            font-weight: bold;
-            font-size: 65px;
-            text-align: center;
-            margin: 0 auto;
-            min-width: 700px;
-        }
+            h1{
+                position: relative;
+                top: 60px;
+                width: 800px;
+                font-weight: bold;
+                font-size: 65px;
+                text-align: center;
+                margin: 0 auto;
+                min-width: 700px;
+            }
 
-        h5{
-            position: absolute;
-            font-size: 27px;
-        }
-        
-        #textBox{
-            width: 790px;
-            margin: 0 auto;
-            padding-top: 207px;
-        }
+            h5{
+                position: absolute;
+                font-size: 27px;
+            }
+            
+            #textBox{
+                width: 790px;
+                margin: 0 auto;
+                padding-top: 120px;
+            }
 
-        h3.title{
-            font-size: 27px;
-        }
+            h3.title{
+                font-size: 27px;
+                padding-top: 100px;
+            }
 
-        p.content{
-            font-size: 20px;
-            font-weight: lighter;
-            line-height: 40px;
-        }
+            p.content{
+                font-size: 20px;
+                font-weight: lighter;
+                line-height: 40px;
+            }
 
-        div.iCanDoIt{
-            padding-top: 100px;
-        }
+            div.ablityBox{
+                display: flex;
+                justify-content: space-around;
+            }
 
-        div.ablityBox{
-            display: flex;
-            justify-content: space-around;
-        }
+            div.abilityWhiteBox{
+                margin-top: 45px;
+                width: 347px;
+                height: 88px;
+                border-radius: 14px;
+                box-shadow: 0px 4px 20px 0px rgb(227, 227, 227);
+            }
 
-        div.abilityWhiteBox{
-            margin-top: 45px;
-            width: 347px;
-            height: 88px;
-            border-radius: 14px;
-            box-shadow: 0px 4px 20px 0px rgb(227, 227, 227);
-        }
+            p.abilityText{
+                font-weight: lighter;
+                line-height: 25px;
+                padding-top: 18px;
+            }
 
-        p.abilityText{
-            font-weight: lighter;
-            line-height: 25px;
-            padding-top: 18px;
-        }
+            h5.skilNameText{
+                font-size: 16px;
+                padding-left: 25px;
+            }
 
-        h5{
-            font-size: 16px;
-            padding-left: 25px;
-        }
+            progress {
+                border-radius: 5px; 
+                width: 292px;
+                height: 10px;
+                margin-left: 25px;
+                margin-top: 55px;
+            }
 
-        progress {
-            border-radius: 5px; 
-            width: 292px;
-            height: 10px;
-            margin-left: 25px;
-            margin-top: 55px;
-        }
+            progress::-webkit-progress-bar {
+                background-color: #F1F1F1;
+                border-width: 40px;
+                border-color: grey;
+                border-radius: 5px;
+            }
+            
+            progress::-webkit-progress-value {
+                border-radius: 5px;
+            }
 
-        progress::-webkit-progress-bar {
-            background-color: #F1F1F1;
-            border-width: 40px;
-            border-color: grey;
-            border-radius: 5px;
-        }
-        
-        progress::-webkit-progress-value {
-            border-radius: 5px;
-        }
+            #swiftProgress::-webkit-progress-value{ background-color: #e59a8b; }
+            #gitProgress::-webkit-progress-value{ background-color: #A7C6A2; }
+            #alamofireProgress::-webkit-progress-value{ background-color: #F1CE85; }
+            #snapkitProgress::-webkit-progress-value{ background-color: #8DACC8; }
+            #webProgress::-webkit-progress-value{ background-color: #EDB077; }
+            #figmaProgress::-webkit-progress-value{ background-color: #A09CD1; }
 
-        #swiftProgress::-webkit-progress-value{ background-color: #e59a8b; }
-        #gitProgress::-webkit-progress-value{ background-color: #A7C6A2; }
-        #alamofireProgress::-webkit-progress-value{ background-color: #F1CE85; }
-        #snapkitProgress::-webkit-progress-value{ background-color: #8DACC8; }
-        #webProgress::-webkit-progress-value{ background-color: #EDB077; }
-        #figmaProgress::-webkit-progress-value{ background-color: #A09CD1; }
+            div.resultWhiteBox{
+                width: 339px;
+                height: 530px;
+                border-radius: 30px;
+                box-shadow: 0px 4px 20px 0px rgb(227, 227, 227);
+            }
 
-    </style>
-</head>
-<body>
-    <h1>반갑습니다,<br>저는 iOS 개발자 김유진입니다!</h1>
+            h5.teamOrOneText{
+                font-size: 20px;
+                font-weight: lighter;
+                color: grey;
+                padding-left: 50px;
+                padding-top: 20px;
+            }
 
-    <div id="textBox">
-        <div id="introduceMe">
-            <h3 class="title">저는 이런 사람입니다.</h3>
-            <p class="content">
-                제 최대 관심사는 <strong>제 자신</strong>입니다. 매일 저의 <strong>장점은 발전</strong>시키고 <strong>단점은 보완</strong>하려고 노력합니다.<br>
-                저는 말의 힘을 믿으며 말의 힘을 두려워합니다. 그만큼 말의 중요성을 인지하고있으며 <strong>의사소통능력을</strong><br>
-                발전시키위해 노력합니다. 저는 <strong>‘시간이 금이다’</strong>라는 말을 항상 마음에 새기고 <strong>매 시간을 효율적으로</strong><br>
-                사용하려고 노력합니다. 매일 새벽기상을 실천하여 책을 읽고, 하루의 목표를 정리합니다.
-            </p>
+            h3.projectNameText{
+                font-size: 30px;
+                padding-left: 50px;
+                padding-top: 78px;
+                background: linear-gradient(to left, #6131ff, #adbafa);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            img.projectImage{
+                padding-left: 38px;
+            }
+
+            div.resultTextBox{
+                padding-top: 10px;
+            }
+
+            div.resultTextBox{
+                margin-top: 45px;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            div.projectTextBox{
+                margin-left: 61px;
+                background-color: khaki;
+            }
+
+            h4.projectIntroTitle{
+                font-size: 18px;
+                font-weight: bold;
+                background-color: white;
+            }
+
+            p.projectIntroContent{
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 21px;
+                background-color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>반갑습니다,<br>저는 iOS 개발자 김유진입니다!</h1>
+
+        <div id="textBox">
+            <div id="introduceMe">
+                <h3 class="title">저는 이런 사람입니다.</h3>
+                <p class="content">
+                    제 최대 관심사는 <strong>제 자신</strong>입니다. 매일 저의 <strong>장점은 발전</strong>시키고 <strong>단점은 보완</strong>하려고 노력합니다.<br>
+                    저는 말의 힘을 믿으며 말의 힘을 두려워합니다. 그만큼 말의 중요성을 인지하고있으며 <strong>의사소통능력을</strong><br>
+                    발전시키위해 노력합니다. 저는 <strong>‘시간이 금이다’</strong>라는 말을 항상 마음에 새기고 <strong>매 시간을 효율적으로</strong><br>
+                    사용하려고 노력합니다. 매일 새벽기상을 실천하여 책을 읽고, 하루의 목표를 정리합니다.
+                </p>
+            </div>
+
+            <div class="iCanDoIt">
+                <h3 class="title">저는 이런 것을 할 수 있습니다.</h3>
+                <p class="content">
+                    어떤 일에 도전하는 데에 있어서 두려움이 없습니다.<br>
+                    새롭고 재밌는 것을 마주하면 거리낌없이 도전하며, 포기하지않습니다.
+                </p>
+
+                <div class="ablityBox">
+                    <div class="abilityTextBox" style="padding-right: 40px;">
+                        <div class="abilityWhiteBox">
+                            <h5 class="skilNameText">Swift</h5>
+
+                            <progress id="swiftProgress" value="10" max="10"></progress>
+                        </div>
+
+                        <p class="abilityText">
+                            Swift를 통해 iOS 앱 개발을 진행하였고, Swift의 다양한<br>
+                            문법들을 정확히 이해하기위해 TIL을 작성하며 공부하였<br>
+                            습니다. 알고리즘을 Swift로 해결하면서 문법을 사용하<br>
+                            는 법을 익히는 것에 그치지않고 해당 문법의 내부 구조<br>
+                            를 파악하였습니다.
+                        </p>
+                    </div>
+
+                    <div class="abilityTextBox" style="padding-left: 40px;">
+                        <div class="abilityWhiteBox">
+                            <h5 class="skilNameText">Git, Github</h5>
+
+                            <progress id="gitProgress" value="8" max="10"></progress>
+                        </div>
+
+                        <p class="abilityText" >
+                            5개의 팀 프로젝트 모두 Git을 통해 버전관리를 진행하였<br>
+                            으며, 공동작업을 위해 Github를 사용하였습니다. Git을<br>
+                            통해 소스코드를 관리하는 법을 익혔으며 활발한 코드리<br>
+                            뷰를 통해 팀원들과 지식을 공유하였습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ablityBox">
+                    <div class="abilityTextBox" style="padding-right: 40px;">
+                        <div class="abilityWhiteBox">
+                            <h5 class="skilNameText">Alamofire</h5>
+
+                            <progress id="alamofireProgress" value="5" max="10"></progress>
+                        </div>
+
+                        <p class="abilityText">
+                            Alamofire을 사용하여 HTTP 통신을 진행해본 경험이 있<br>
+                            습니다. InFrame, EZY 등의 프로젝트에 Alamofire를 활<br>
+                            용하여 서버 통신을 적용하면서 Alamofire에 대한 이해<br>
+                            도를 높힐 수 있었습니다.
+                        </p>
+                    </div>
+
+                    <div class="abilityTextBox" style="padding-left: 40px;">
+                        <div class="abilityWhiteBox">
+                            <h5 class="skilNameText">Snapkit</h5>
+
+                            <progress id="snapkitProgress" value="9" max="10"></progress>
+                        </div>
+
+                        <p class="abilityText" >
+                            진행한 모든 프로젝트에서 Snapkit을 사용하여<br>
+                            autolayout을 적용하였습니다. 다양한 프로젝트에<br>
+                            Snapkit으로 autolayout을 적용하면서 뷰의 크기와 위치<br>
+                            를 동적으로 지정하는 방법을 익혔습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ablityBox">
+                    <div class="abilityTextBox" style="padding-right: 40px;">
+                        <div class="abilityWhiteBox">
+                            <h5 class="skilNameText">HTML, CSS</h5>
+
+                            <progress id="webProgress" value="4" max="10"></progress>
+                        </div>
+
+                        <p class="abilityText">
+                            앱 개발에만 국한되지 않고 다양한 분야를 경험해보았습<br>
+                            니다. Doory 프로젝트에서 FrontEnd 웹 개발을 맡아 퍼<br>
+                            블리싱을 담당하였고 그 과정에서 웹 개발에 대한 이해<br>
+                            도를 높힐 수 있었습니다.
+                        </p>
+                    </div>
+
+                    <div class="abilityTextBox" style="padding-left: 40px;">
+                        <div class="abilityWhiteBox">
+                            <h5 class="skilNameText">Figma</h5>
+
+                            <progress id="figmaProgress" value="5" max="10"></progress>
+                        </div>
+
+                        <p class="abilityText" >
+                            사용하기 쉬우며 보기에도 예쁜 앱을 만드는 것을 좋아<br>
+                            합니다. 진행한 프로젝트의 디자인 대부분을 직접 제작<br>
+                            하였으며 그 과정에서 Figma에 대한 이해도를 높일 수<br>
+                            있었습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="iHavaResult">
+                <h3 class="title">저는 이런 결과를 가지고있습니다.</h3>
+                <p class="content">
+                    프로젝트를 진행하는 것이 실력을 가장 효율적으로 발전시킬 수 있는 방법이라고 생각하여<br>
+                    꾸준히 프로젝트를 진행하였습니다. 프로젝트를 진행할 땐 누구보다 주도적으로 행동하였고,<br>
+                    공동의 목표를 성공적으로 달성하기 위해 노력하였습니다.<br>
+                </p>
+
+                <div class="resultBox">
+                    <div class="resultTextBox" style="padding-right: 40px;">
+                        <div class="resultWhiteBox">
+                            <h5 class="teamOrOneText">Team Project</h5>
+
+                            <h3 class="projectNameText">EZY</h3>
+                            <img class="projectImage" width="250" height="300" src="https://user-images.githubusercontent.com/71479613/150666070-9959d399-fbdd-4f77-901a-ad3a06927782.png">
+                        </div>
+
+                        <div class="projectTextBox">
+                            <div class="projectText">
+                                <h4 class="projectIntroTitle">이런 서비스에요!</h4>
+
+                                <p class="projectIntroContent">
+                                    EZY는 일정관리 앱으로, 기존의 개인일정 앱과 차별점<br>
+                                    을 두기위해 심부름이라는 기능을 추가하였습니다. 심<br>
+                                    부름 기능을 통해 상대방에게 심부름을 부탁할 수 있습<br>
+                                    니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="iCanDoIt">
-            <h3 class="title">저는 이런 것을 할 수 있습니다.</h3>
-            <p class="content">
-                어떤 일에 도전하는 데에 있어서 두려움이 없습니다.<br>
-                새롭고 재밌는 것을 마주하면 거리낌없이 도전하며, 포기하지않습니다.
-            </p>
-
-            <div class="ablityBox">
-                <div class="abilityTextBox" style="padding-right: 40px;">
-                    <div class="abilityWhiteBox">
-                        <h5>Swift</h5>
-
-                        <progress id="swiftProgress" value="6" max="10"></progress>
-                    </div>
-
-                    <p class="abilityText">
-                        Swift를 통해 iOS 앱 개발을 진행하였고, Swift의 다양한<br>
-                        문법들을 정확히 이해하기위해 TIL을 작성하며 공부하였<br>
-                        습니다. 알고리즘을 Swift로 해결하면서 문법을 사용하<br>
-                        는 법을 익히는 것에 그치지않고 해당 문법의 내부 구조<br>
-                        를 파악하였습니다.
-                    </p>
-                </div>
-
-                <div class="abilityTextBox" style="padding-left: 40px;">
-                    <div class="abilityWhiteBox">
-                        <h5>Git, Github</h5>
-
-                        <progress id="gitProgress" value="8" max="10"></progress>
-                    </div>
-
-                    <p class="abilityText" >
-                        5개의 팀 프로젝트 모두 Git을 통해 버전관리를 진행하였<br>
-                        으며, 공동작업을 위해 Github를 사용하였습니다. Git을<br>
-                        통해 소스코드를 관리하는 법을 익혔으며 활발한 코드리<br>
-                        뷰를 통해 팀원들과 지식을 공유하였습니다.
-                    </p>
-                </div>
-            </div>
-
-            <div class="ablityBox">
-                <div class="abilityTextBox" style="padding-right: 40px;">
-                    <div class="abilityWhiteBox">
-                        <h5>Alamofire</h5>
-
-                        <progress id="alamofireProgress" value="5" max="10"></progress>
-                    </div>
-
-                    <p class="abilityText">
-                        Alamofire을 사용하여 HTTP 통신을 진행해본 경험이 있<br>
-                        습니다. InFrame, EZY 등의 프로젝트에 Alamofire를 활<br>
-                        용하여 서버 통신을 적용하면서 Alamofire에 대한 이해<br>
-                        도를 높힐 수 있었습니다.
-                    </p>
-                </div>
-
-                <div class="abilityTextBox" style="padding-left: 40px;">
-                    <div class="abilityWhiteBox">
-                        <h5>Snapkit</h5>
-
-                        <progress id="snapkitProgress" value="9" max="10"></progress>
-                    </div>
-
-                    <p class="abilityText" >
-                        진행한 모든 프로젝트에서 Snapkit을 사용하여<br>
-                        autolayout을 적용하였습니다. 다양한 프로젝트에<br>
-                        Snapkit으로 autolayout을 적용하면서 뷰의 크기와 위치<br>
-                        를 동적으로 지정하는 방법을 익혔습니다.
-                    </p>
-                </div>
-            </div>
-
-            <div class="ablityBox">
-                <div class="abilityTextBox" style="padding-right: 40px;">
-                    <div class="abilityWhiteBox">
-                        <h5>HTML, CSS</h5>
-
-                        <progress id="webProgress" value="4" max="10"></progress>
-                    </div>
-
-                    <p class="abilityText">
-                        앱 개발에만 국한되지 않고 다양한 분야를 경험해보았습<br>
-                        니다. Doory 프로젝트에서 FrontEnd 웹 개발을 맡아 퍼<br>
-                        블리싱을 담당하였고 그 과정에서 웹 개발에 대한 이해<br>
-                        도를 높힐 수 있었습니다.
-                    </p>
-                </div>
-
-                <div class="abilityTextBox" style="padding-left: 40px;">
-                    <div class="abilityWhiteBox">
-                        <h5>Figma</h5>
-
-                        <progress id="figmaProgress" value="5" max="10"></progress>
-                    </div>
-
-                    <p class="abilityText" >
-                        사용하기 쉬우며 보기에도 예쁜 앱을 만드는 것을 좋아<br>
-                        합니다. 진행한 프로젝트의 디자인 대부분을 직접 제작<br>
-                        하였으며 그 과정에서 Figma에 대한 이해도를 높일 수<br>
-                        있었습니다.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
