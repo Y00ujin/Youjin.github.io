@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* StartPage */
+
+#StartPage{
+    width: 100vw;
+    height: 100vh;
+}
+
+#StartPageComponent{
+    text-align: center;
+    position: relative;
+    top: 380px;
+}
+
+#StartPageTitle{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#StartPageSubTitle{
+    position: relative;
+    top: 20px;
+    font-size: 20px; 
+    font-weight: lighter;
+}
+
+#StartPageDown{
+    position: relative;
+    top: 400px;
+}
+
+#StartPageDownText{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#StartPageDownImg{
+    position: relative;
+    width: 26px;
+    height: 11px;
+    top: 20px;
+}
+
+/* IntroducePage */
+
+#IntroducePage{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(250, 215, 215);
+}
