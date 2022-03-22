@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+/* font */
+
+@font-face {
+    font-family: 'DidotLTStd-Headline';
+    src: url(./font/DidotLTStd-Headline.otf);
+}
+
 /* StartPage */
 
 #StartPage{
@@ -23,15 +30,13 @@
 }
 
 #StartPageSubTitle{
-    position: relative;
-    top: 20px;
+    margin-top: 20px;
     font-size: 20px; 
     font-weight: lighter;
 }
 
 #StartPageDown{
-    position: relative;
-    top: 400px;
+    margin-top: 400px;
 }
 
 #StartPageDownText{
@@ -40,16 +45,110 @@
 }
 
 #StartPageDownImg{
-    position: relative;
     width: 26px;
     height: 11px;
-    top: 20px;
+    margin-top: 20px;
 }
 
 /* IntroducePage */
 
 #IntroducePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(250, 215, 215);
+    /* background-color: rgb(250, 215, 215); */
+}
+
+#IntroducePageComponent { 
+    width: 1118px;
+    height: 641px;
+}
+
+#IntroducePageProfileImg{
+    width: 328px;
+    height: 331px;
+}
+
+#IntroducePageInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#IntroducePageInfoMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 295px;
+    margin-top: 36px;
+}
+
+#IntroducePageInfoMeName {
+    width: 669px;
+}
+
+h5.IntroducePageTitle{
+    font-family: 'DidotLTStd-Headline';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h5.IntroducePageOneLine{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#IntroducePageInfoMore {
+    display: flex;
+    justify-content: space-between;
+    width: 614px;
+}
+
+#IntroducePageInfoMoreBox {
+    height: 120px;
+}
+
+#IntroducePageTitle {
+    font-family: 'DidotLTStd-Headline';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#IntroducePageImgTextWrapper {
+    margin-top: 19px;
+}
+
+#IntroducePageImgText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+}
+
+#IntroducePageImg{
+    height: 22px;
+    width: 22px;
+}
+
+h5.IntroducePageInfoMoreText{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+#IntroducePageIntroMeWrapper {
+    width: 100%;
+    height: 215px;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+#IntroducePageIntroMe {
+    width: 811px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 50px;
 }
