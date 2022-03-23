@@ -90,7 +90,7 @@
 }
 
 h5.IntroducePageTitle{
-    font-family: 'DidotLTStd-Headline';
+    font-weight: bold;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -111,7 +111,7 @@ h5.IntroducePageOneLine{
 }
 
 #IntroducePageTitle {
-    font-family: 'DidotLTStd-Headline';
+    font-weight: bold;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -176,8 +176,8 @@ h5.IntroducePageInfoMoreText{
     width: 59vw;
 }
 
-#CanDoPageTitle {
-    font-family: 'DidotLTStd-Headline';
+#PageTitle {
+    font-weight: bold;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -259,4 +259,303 @@ h5.IntroducePageInfoMoreText{
 
 #CanDoPageSkillImg {
     width: 21.5vw;
+}
+
+/* ProjectPage */
+
+#ProjectPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#ProjectPageComponent {
+    width: 59vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ProjectPageTitleBox {
+    width: 59vw;
+}
+
+#ProjectPageSubTitleBox {
+    margin-top: 23px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+#ProjectPageProjectBox {
+    display: flex;
+    justify-content: space-between;
+    width: 59vw;
+    height: 50.44vh;
+}
+
+#ProjectPageWhiteBox {
+    width: 18.58vw;
+    height: 50.44vh;
+    box-shadow: 0px 4px 20px #E3E3E3;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#ProjectPageShadowBox{
+    position: relative;
+    background-color: #6d6d6d;
+    width: 18.58vw;
+    height: 50.44vh;
+    top: -50.44vh;
+    border-radius: 30px;
+    opacity: 0.2;
+}
+
+/* // hover가 안먹음 */
+#ProjectPageShadowBox :hover{
+    opacity: 0.3;
+}
+
+#ProjectPageWhiteBoxComponent {
+    width: 12.7vw;
+    height: 40.5vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ProjectPageWhiteBoxText {
+    width: 12.7vw;
+    height: 4.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ProjectPageWhiteBoxImg {
+    width: 12.7vw;
+    height: 28.85vh;
+    margin-bottom: 20px;
+}
+
+#ProjectPageWhiteBoxSubTitle {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.ProjectPageWhiteBoxEZY {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #6B40FF 10%, #D2DBFF 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ProjectPageWhiteBoxGOOUT {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #6886C5 10%, #FFACB7 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ProjectPageWhiteBoxInFrame {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #6886C5 10%, #FFACB7 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* EZYProjectPage */
+
+#EZYProjectPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#EZYProjectComponent {
+    width: 59vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#EZYProjectTopBox {
+    width: 59vw;
+    height: 11.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#EZYProjectTopInfoBox {
+    width: 59vw;
+    height: 7.1vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#EZYProjectTopInfoTextBox {
+    width: 10.41vw;
+    height: 7.1vh;
+}
+
+#EZYProjectSkillBox {
+    width: 24.5vw;
+    height: 3.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#EZYProjectSwiftSkill {
+    width: 5.2vw;
+    height: 3.4vh;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: #606060;
+}
+
+#EZYProjectSnapkitSkill {
+    width: 5.9vw;
+    height: 3.4vh;
+    position: relative;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: #606060;
+}
+
+#EZYProjectThenSkill {
+    width: 4.9vw;
+    height: 3.4vh;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: #606060;
+}
+
+#EZYProjectAlamofireSkill {
+    width: 6.3vw;
+    height: 3.4vh;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: #606060;
+}
+
+#EZYProjectBottomBox {
+    width: 59vw;
+    height: 55.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#EZYProjectContentsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 34.7vw;
+    height: 55.5vh;
+}
+
+#EZYProjectTopContent {
+    width: 34.7vw;
+    height: 14.3vh;
+}
+
+#EZYProjectContentTitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#EZYProjectContentSubTitle{
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 27px;
+    margin-top: 12px;
+}
+
+#EZYProjectMiddleContent {
+    width: 34.7vw;
+    height: 11.7vh;
+}
+
+#EZYProjectBottomContent {
+    width: 34.7vw;
+    height: 17.2vh;
+}
+
+#EZYProjectAppImgBox {
+    width: 17.9vw;
+    height: 55.5vh;
+}
+
+#EZYProjectPeople{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#EZYProjectName{
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #6886C5 10%, #FFACB7 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#EZYProjectTopInfoLinkBox {
+    width: 12vw;
+    height: 7.1vh;
+    text-align: right;
+}
+
+#EZYProjectLinkBox{
+    width: 9vw;
+    height: 4.3vh;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#EZYProjectNotionLink{
+    width: 4.3vh;
+    height: 4.3vh;
+}
+
+/* EZYProjectDesignPage */
+
+#EZYProjectDesignPage{
+
 }
