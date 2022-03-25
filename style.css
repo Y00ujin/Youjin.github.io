@@ -621,7 +621,6 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #ffc2ca;
 }
 
 #TeamPageComponent {
@@ -630,13 +629,11 @@ h5.IntroducePageInfoMoreText{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #F6F6F6;
 }
 
 #TeamPageText {
     width: 59vw;
     height: 15vh;
-    background-color: #FFACB7;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -645,7 +642,6 @@ h5.IntroducePageInfoMoreText{
 #TeamPageItem {
     width: 59vw;
     height: 27.9vh;
-    background-color: #ff98a6;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -657,7 +653,6 @@ h5.IntroducePageInfoMoreText{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #ff8797;
     font-size: 30px;
     font-weight: bold;
 }
@@ -668,7 +663,6 @@ h5.IntroducePageInfoMoreText{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #ffc9d1;
     font-size: 20px;
     font-weight: lighter;
     line-height: 35px;
@@ -689,7 +683,6 @@ h5.IntroducePageInfoMoreText{
 #TeamPageWhiteComponentBox {
     width: 9.5vw;
     height: 21.96vh;
-    background-color: rgb(255, 232, 232);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -698,7 +691,6 @@ h5.IntroducePageInfoMoreText{
 #TeamPageWhiteComponentText {
     width: 9.5vw;
     height: 2.96vh;
-    background-color: #ff657a;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -707,7 +699,6 @@ h5.IntroducePageInfoMoreText{
 #TeamPageWhiteComponentImg {
     width: 9.5vw;
     height: 16.96vh;
-    background-color: #ff8797;
 }
 
 #TeamPageTeamName {
