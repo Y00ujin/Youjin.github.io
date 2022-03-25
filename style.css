@@ -737,3 +737,87 @@ h5.IntroducePageInfoMoreText{
     width: 28.7vw;
     height: 55.5vh;
 }
+
+/* SHAPage */
+
+#SHAProjectName{
+    width: 50vw;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #DDE7CC 10%, #a7baff 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#SHAProjectAppImgBox{
+    width: 17.9vw;
+    height: 54vh;
+}
+
+/* PicnicTeamProjectPage */
+
+#PicnicProjectName{
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #FFACB7 10%, #86A1D9 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#DooryteeProjectAppImgBox{
+    width: 24.9vw;
+    height: 54vh;
+}
+
+/* BookPage */
+
+#BookPageComponent {
+    width: 59vw;
+    height: 65.89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+#BookPageItem {
+    width: 59vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#BookPageTopItem{
+    width: 59vw;
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#BookPageText{
+    width: 29.17vw;
+    height: 19vh;
+}
+
+#BookPageImg{
+    width: 22.45vw;
+    height: 21vh;
+}
+
+#BookPageText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#BookPageBookTitle{
+    font-size: 18px;
+}
+
+#BookPageBookContent {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: lighter;
+}
