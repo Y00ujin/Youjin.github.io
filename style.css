@@ -713,3 +713,27 @@ h5.IntroducePageInfoMoreText{
     font-weight: lighter;
     margin-left: 10px;
 }
+
+/* themoment */
+
+#TheMomentProjectName{
+    width: 50vw;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to right top, #434C9C 10%, #C4DFDB 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ThemomentProjectAppImgBox{
+    width: 24.9vw;
+    height: 54vh;
+}
+
+#ThemomentProjectContentsBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28.7vw;
+    height: 55.5vh;
+}
