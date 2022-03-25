@@ -507,17 +507,28 @@ h5.IntroducePageInfoMoreText{
 
 #EZYProjectMiddleContent {
     width: 34.7vw;
-    height: 11.7vh;
+    height: 17.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #EZYProjectBottomContent {
     width: 34.7vw;
     height: 17.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #EZYProjectAppImgBox {
     width: 17.9vw;
-    height: 55.5vh;
+    height: 54vh;
+}
+
+#InFrameProjectAppImgBox {
+    width: 15.9vw;
+    height: 54vh;
 }
 
 #EZYProjectPeople{
@@ -528,7 +539,7 @@ h5.IntroducePageInfoMoreText{
 #EZYProjectName{
     font-size: 45px;
     font-weight: bold;
-    background: linear-gradient(to right top, #6886C5 10%, #FFACB7 70%);
+    background: linear-gradient(to right top, #a39fe8 10%, #ffc2ca 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -557,5 +568,157 @@ h5.IntroducePageInfoMoreText{
 /* EZYProjectDesignPage */
 
 #EZYProjectDesignPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
 
+#EZYProjectDesignComponent{
+    height: 60.17vh;
+    width: 59vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#EZYProjectOneComponent{
+    height: 60.17vh;
+    width: 17.2vw;
+}
+
+#EZYProjectLeftComponentImg{
+    height: 60.17vh;
+    width: 17.2vw;
+    margin-top: -3vh;
+}
+
+#EZYProjectMiddleComponentImg{
+    height: 60.17vh;
+    width: 17.2vw;
+}
+
+#EZYProjectRightComponentImg{
+    height: 60.17vh;
+    width: 17.2vw;
+    margin-top: 3vh;
+}
+
+#GOOUTProjectSkillBox {
+    width: 17.5vw;
+    height: 3.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* TeamPage */
+
+#TeamPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffc2ca;
+}
+
+#TeamPageComponent {
+    width: 59vw;
+    height: 52.23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+}
+
+#TeamPageText {
+    width: 59vw;
+    height: 15vh;
+    background-color: #FFACB7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#TeamPageItem {
+    width: 59vw;
+    height: 27.9vh;
+    background-color: #ff98a6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#TeamPageTitleText {
+    width: 59vw;
+    height: 3.58vh; 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #ff8797;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#TeamPageContentText {
+    width: 59vw;
+    height: 9.4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #ffc9d1;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+#TeamPageWhiteBox {
+    width: 13vw;
+    height: 27.9vh;
+    box-shadow: 0px 4px 20px #E3E3E3;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#TeamPageWhiteComponentBox {
+    width: 9.5vw;
+    height: 21.96vh;
+    background-color: rgb(255, 232, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#TeamPageWhiteComponentText {
+    width: 9.5vw;
+    height: 2.96vh;
+    background-color: #ff657a;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#TeamPageWhiteComponentImg {
+    width: 9.5vw;
+    height: 16.96vh;
+    background-color: #ff8797;
+}
+
+#TeamPageTeamName {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #717171;
+}
+
+#TeamPageTeamText {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 10px;
 }
