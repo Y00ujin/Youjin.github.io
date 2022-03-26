@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
 /* font */
 
 @font-face {
@@ -315,12 +322,14 @@ h5.IntroducePageInfoMoreText{
     height: 50.44vh;
     top: -50.44vh;
     border-radius: 30px;
-    opacity: 0.2;
+    transition: 0.4s;
+    cursor: pointer;
+    opacity: 0;
 }
 
-/* // hover가 안먹음 */
-#ProjectPageShadowBox :hover{
+#ProjectPageShadowBox:hover{
     opacity: 0.3;
+    transition: 0.4s;
 }
 
 #ProjectPageWhiteBoxComponent {
@@ -688,6 +697,34 @@ h5.IntroducePageInfoMoreText{
     justify-content: space-between;
 }
 
+#TeamPageShadowBox{
+    position: absolute;
+    background-color: #6d6d6d;
+    width: 13vw;
+    height: 27.9vh;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#TeamPageShadowBox1{
+    position: absolute;
+    background-color: #935a5a;
+    width: 13vw;
+    height: 27.9vh;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    /* opacity: 0; */
+}
+
+#TeamPageShadowBox:hover{
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+
 #TeamPageWhiteComponentText {
     width: 9.5vw;
     height: 2.96vh;
@@ -820,4 +857,21 @@ h5.IntroducePageInfoMoreText{
     font-size: 18px;
     line-height: 27px;
     font-weight: lighter;
+}
+
+/* EndPage */
+
+#EndPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#EndPageThanks {
+    font-size: 100px;
+    color: #b3b3b3;
+    font-weight: bolder;
+    letter-spacing: 10px;
 }
