@@ -10,16 +10,19 @@ body {
     user-select:none;
 }
 
-/* font */
-
-@font-face {
-    font-family: 'DidotLTStd-Headline';
-    src: url(./font/DidotLTStd-Headline.otf);
-}
+html {scroll-behavior: smooth;}
 
 /* StartPage */
 
 #StartPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#BookPage{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,6 +161,41 @@ h5.IntroducePageInfoMoreText{
     font-size: 20px;
     font-weight: lighter;
     line-height: 50px;
+    position: relative;
+}
+
+#WakeUpBar {
+    position: absolute;
+    background-color: #616161;
+    width: 7.5vw;
+    height: 1.5vh;
+    opacity: 0.2;
+    transition: 0.4s;
+    margin-top: 20px;
+    margin-left: 510px;
+}
+
+#WakeUpBar:hover{
+    opacity: 0.3;
+    transition: 0.4s;
+    width: 8vw;
+}
+
+#TILBar{
+    position: absolute;
+    background-color: #616161;
+    width: 3.5vw;
+    height: 1.5vh;
+    opacity: 0.2;
+    transition: 0.4s;
+    margin-top: 70px;
+    margin-right: 52px;
+}
+
+#TILBar:hover{
+    opacity: 0.3;
+    transition: 0.4s;
+    width: 4vw;
 }
 
 /* CanDoPage */
@@ -572,6 +610,20 @@ h5.IntroducePageInfoMoreText{
 #EZYProjectNotionLink{
     width: 4.3vh;
     height: 4.3vh;
+    cursor: pointer;
+}
+
+#EZYProjectFigmaLink{
+    width: 4.3vh;
+    height: 4.3vh;
+    cursor: pointer;
+}
+
+
+#EZYProjectGithubLink{
+    width: 4.3vh;
+    height: 4.3vh;
+    cursor: pointer;
 }
 
 /* EZYProjectDesignPage */
@@ -706,17 +758,6 @@ h5.IntroducePageInfoMoreText{
     transition: 0.4s;
     cursor: pointer;
     opacity: 0;
-}
-
-#TeamPageShadowBox1{
-    position: absolute;
-    background-color: #935a5a;
-    width: 13vw;
-    height: 27.9vh;
-    border-radius: 20px;
-    transition: 0.4s;
-    cursor: pointer;
-    /* opacity: 0; */
 }
 
 #TeamPageShadowBox:hover{
