@@ -3,14 +3,20 @@
     padding: 0;
 }
 
-body {
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
+  ::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(223, 223, 223);
+  }
 
-html {scroll-behavior: smooth;}
+  body{
+      color: #2e2e2e;
+  }
+
+  
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none;}
+a {color: black;}
 
 /* StartPage */
 
@@ -20,6 +26,10 @@ html {scroll-behavior: smooth;}
     align-items: center;
     width: 100vw;
     height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #BookPage{
@@ -28,6 +38,11 @@ html {scroll-behavior: smooth;}
     align-items: center;
     width: 100vw;
     height: 100vh;
+    height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #StartPageComponent{
@@ -68,6 +83,7 @@ html {scroll-behavior: smooth;}
     justify-content: center;
     align-items: center;
     width: 100vw;
+    height: 100vh;
     height: 100vh;
 }
 
@@ -162,6 +178,10 @@ h5.IntroducePageInfoMoreText{
     font-weight: lighter;
     line-height: 50px;
     position: relative;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #WakeUpBar {
@@ -206,6 +226,10 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #CanDoPageComponent { 
@@ -314,6 +338,11 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #ProjectPageComponent {
@@ -361,7 +390,6 @@ h5.IntroducePageInfoMoreText{
     top: -50.44vh;
     border-radius: 30px;
     transition: 0.4s;
-    cursor: pointer;
     opacity: 0;
 }
 
@@ -430,6 +458,11 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #EZYProjectComponent {
@@ -598,7 +631,7 @@ h5.IntroducePageInfoMoreText{
 }
 
 #EZYProjectLinkBox{
-    width: 9vw;
+    width: 5.5vw;
     height: 4.3vh;
     float: right;
     display: flex;
@@ -634,6 +667,11 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #EZYProjectDesignComponent{
@@ -682,6 +720,11 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
+        height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #TeamPageComponent {
@@ -756,7 +799,6 @@ h5.IntroducePageInfoMoreText{
     height: 27.9vh;
     border-radius: 20px;
     transition: 0.4s;
-    cursor: pointer;
     opacity: 0;
 }
 
@@ -908,6 +950,11 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    height: 100vh;
+    -webkit-user-select:none;
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none
 }
 
 #EndPageThanks {
