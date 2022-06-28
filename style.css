@@ -69,9 +69,9 @@ a {color: black;}
 
 #StartPageTitleText{
     height: 17.9051vh;
-    width: 33.7963vw;
+    width: 53.7963vw;
     text-align: left;
-    font-size: 70px;
+    font-size: 4.375rem;
     font-family: 'AppleSDHeavy';
 }
 
@@ -90,18 +90,18 @@ a {color: black;}
 
 #StartPageBarBox{
     background-color: #000000;
-    height: 3px;
-    width: 30px;
-    border-radius: 1.5px;
+    height: 0.188rem;
+    width: 1.875rem;
+    border-radius: 0.094rem;
 }
 
 #StartPageTitleSubTitle{
     height: 8.952vh;
-    width: 15vw;
-    font-weight: 400px;
-    font-size: 22px;
+    width: 23vw;
+    font-weight: 25rem;
+    font-size: 1.375rem;
     text-align: left;
-    line-height: 50px;
+    line-height: 3.125rem;
 }
 
 #StartPageLinkComponent{
@@ -115,9 +115,9 @@ a {color: black;}
 }
 
 #StartPageLink{
-    height: 42px;
-    width: 42px;
-    padding-bottom: 30px;
+    height: 2.625rem;
+    width: 2.625rem;
+    padding-bottom: 1.875rem;
 }
 
 /* IntroducePage */
@@ -137,8 +137,8 @@ a {color: black;}
 }
 
 #IntroducePageProfileImg{
-    width: 274px;
-    height: 100%;
+    width: 17.125rem;
+    height: 17.125rem;
 }
 
 #IntroducePageInfo {
@@ -153,68 +153,67 @@ a {color: black;}
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    margin-right: 80px;
+    margin-right: 5rem;
 }
 
 #IntroducePageInfoMeName {
-    width: 669px;
+    width: 41.813rem;
 }
 
 #IntroducePageTitle{
-    font-size: 30px;
+    font-size: 1.875rem;
     width: 10vw;
     height: 5vh;
-    /* font-family: 'AppleSDHeavy'; */
     font-weight: bolder;
 }
 
 h5.IntroducePageOneLine{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: lighter;
-    margin-top: 10px;
+    margin-top: 0.05rem;
 }
 
 #IntroducePageInfoMore {
     display: flex;
     justify-content: space-between;
-    width: 614px;
+    width: 38.375rem;
 }
 
 #IntroducePageInfoMoreBox {
-    height: 120px;
+    height: 7.5rem;
     width: 100%;
 }
 
 #IntroducePageInfoMoreMyChannelBox{
     height: 100%;
     width: 100%;
-    margin-left: 190px;
+    margin-left: 11.875rem;
 }
 
 #IntroducePageImgTextWrapper {
-    margin-top: 19px;
+    margin-top: 1.188rem;
 }
 
 #IntroducePageImgText {
     display: flex;
     flex-direction: row;
-    margin-top: 14px;
+    margin-top: 0.875rem;
 }
 
 #IntroducePageImg{
-    height: 22px;
-    width: 22px;
+    height: 1.375rem;
+    width: 1.375rem;
 }
 
 h5.IntroducePageInfoMoreText{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: lighter;
-    margin-left: 15px;
+    margin-left: 0.938rem;
 }
 
 #IntroducePageIntroMeWrapper {
     width: 100%;
-    height: 215px;
+    height: 13.438rem;
     margin-top: 8.504vh;
     display: flex;
     justify-content: center;
@@ -223,9 +222,9 @@ h5.IntroducePageInfoMoreText{
 #IntroducePageIntroMe {
     width: 100%;
     height: 100%;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: lighter;
-    line-height: 50px;
+    line-height: 3.125rem;
     position: relative;
     -webkit-user-select:none;
     -moz-user-select:none; 
@@ -256,14 +255,14 @@ h5.IntroducePageInfoMoreText{
 }
 
 #CanDoPageTitleBox {
-    height: 42px;
+    height: 2.625rem;
     width: 59vw;
 }
 
 #PageTitle {
     font-weight: bolder;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 1.875;
+    letter-spacing: 0.125rem;
 }
 
 #CanDoPageContentBox {
@@ -307,7 +306,7 @@ h5.IntroducePageInfoMoreText{
 }
 
 #CanDoPageSkillBox {
-    border-radius: 14px;
+    border-radius: 0.875rem;
     width: 24vw;
     height: 7.878vh;
     box-shadow: 0px 4px 20px #E3E3E3;
@@ -319,9 +318,9 @@ h5.IntroducePageInfoMoreText{
 #CanDoPageSkillTextBox {
     width: 24vw;
     height: 10vh;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: lighter;
-    line-height: 30px;
+    line-height: 1.875;
 }
 
 #CanDoPageSkillComponentBox {
@@ -333,7 +332,7 @@ h5.IntroducePageInfoMoreText{
 }
 
 #CanDoPageSkillName {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -373,10 +372,10 @@ h5.IntroducePageInfoMoreText{
 }
 
 #ProjectPageSubTitleBox {
-    margin-top: 23px;
-    font-size: 22px;
+    margin-top: 1.438rem;
+    font-size: 1.375rem;
     font-weight: lighter;
-    line-height: 35px;
+    line-height: 2.188rem;
 }
 
 #ProjectPageProjectBox {
@@ -390,7 +389,7 @@ h5.IntroducePageInfoMoreText{
     width: 18.58vw;
     height: 50.44vh;
     box-shadow: 0px 4px 20px #E3E3E3;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -403,7 +402,7 @@ h5.IntroducePageInfoMoreText{
     width: 18.58vw;
     height: 50.44vh;
     top: -50.44vh;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     transition: 0.4s;
     opacity: 0;
 }
@@ -433,16 +432,16 @@ h5.IntroducePageInfoMoreText{
 #ProjectPageWhiteBoxImg {
     width: 12.7vw;
     height: 28.85vh;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 #ProjectPageWhiteBoxSubTitle {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: lighter;
 }
 
 .ProjectPageWhiteBoxEZY {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     background: linear-gradient(to right top, #6B40FF 10%, #D2DBFF 70%);
     -webkit-background-clip: text;
@@ -450,7 +449,7 @@ h5.IntroducePageInfoMoreText{
 }
 
 .ProjectPageWhiteBoxGOOUT {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     background: linear-gradient(to right top, #6886C5 10%, #FFACB7 70%);
     -webkit-background-clip: text;
@@ -458,7 +457,7 @@ h5.IntroducePageInfoMoreText{
 }
 
 .ProjectPageWhiteBoxInFrame {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     background: linear-gradient(to right top, #6886C5 10%, #FFACB7 70%);
     -webkit-background-clip: text;
@@ -502,7 +501,7 @@ h5.IntroducePageInfoMoreText{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 #EZYProjectTopInfoTextBox {
@@ -521,7 +520,7 @@ h5.IntroducePageInfoMoreText{
 #EZYProjectSwiftSkill {
     width: 5.2vw;
     height: 3.4vh;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
@@ -534,7 +533,7 @@ h5.IntroducePageInfoMoreText{
     width: 5.9vw;
     height: 3.4vh;
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
@@ -546,7 +545,7 @@ h5.IntroducePageInfoMoreText{
 #EZYProjectThenSkill {
     width: 4.9vw;
     height: 3.4vh;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
@@ -558,7 +557,7 @@ h5.IntroducePageInfoMoreText{
 #EZYProjectAlamofireSkill {
     width: 6.3vw;
     height: 3.4vh;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
@@ -589,15 +588,15 @@ h5.IntroducePageInfoMoreText{
 }
 
 #EZYProjectContentTitle{
-    font-size: 21px;
+    font-size: 1.313rem;
     font-weight: 500;
 }
 
 #EZYProjectContentSubTitle{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: lighter;
-    line-height: 30px;
-    margin-top: 12px;
+    line-height: 1.875rem;
+    margin-top: 0.75rem;
 }
 
 #EZYProjectMiddleContent {
@@ -627,12 +626,12 @@ h5.IntroducePageInfoMoreText{
 }
 
 #EZYProjectPeople{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: lighter;
 }
 
 #EZYProjectName{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
     background: linear-gradient(to right top, #a39fe8 10%, #ffc2ca 70%);
     -webkit-background-clip: text;
@@ -652,7 +651,7 @@ h5.IntroducePageInfoMoreText{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 #EZYProjectNotionLink{
@@ -735,7 +734,7 @@ h5.IntroducePageInfoMoreText{
     align-items: center;
     width: 100vw;
     height: 100vh;
-        height: 100vh;
+    height: 100vh;
     -webkit-user-select:none;
     -moz-user-select:none; 
     -ms-user-select:none; 
@@ -772,7 +771,7 @@ h5.IntroducePageInfoMoreText{
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
@@ -782,16 +781,16 @@ h5.IntroducePageInfoMoreText{
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: lighter;
-    line-height: 35px;
+    line-height: 2.188rem;
 }
 
 #TeamPageWhiteBox {
     width: 13vw;
     height: 27.9vh;
     box-shadow: 0px 4px 20px #E3E3E3;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: flex;
     background-color: white;
     justify-content: center;
@@ -812,7 +811,7 @@ h5.IntroducePageInfoMoreText{
     background-color: #6d6d6d;
     width: 13vw;
     height: 27.9vh;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     transition: 0.4s;
     opacity: 0;
 }
@@ -838,22 +837,22 @@ h5.IntroducePageInfoMoreText{
 
 #TeamPageTeamName {
     float: left;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #717171;
 }
 
 #TeamPageTeamText {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: lighter;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 /* themoment */
 
 #TheMomentProjectName{
     width: 50vw;
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight: bold;
     background: linear-gradient(to right top, #434C9C 10%, #C4DFDB 70%);
     -webkit-background-clip: text;
@@ -877,7 +876,7 @@ h5.IntroducePageInfoMoreText{
 
 #SHAProjectName{
     width: 50vw;
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight: bold;
     background: linear-gradient(to right top, #DDE7CC 10%, #a7baff 10%);
     -webkit-background-clip: text;
@@ -892,7 +891,7 @@ h5.IntroducePageInfoMoreText{
 /* PicnicTeamProjectPage */
 
 #PicnicProjectName{
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight: bold;
     background: linear-gradient(to right top, #FFACB7 10%, #86A1D9 70%);
     -webkit-background-clip: text;
@@ -948,14 +947,14 @@ h5.IntroducePageInfoMoreText{
 }
 
 #BookPageBookTitle{
-    font-size: 21px;
+    font-size: 1.313rem;
 }
 
 #BookPageBookContent {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25rem;
+    line-height: 1.688rem;
     font-weight: lighter;
-    margin-bottom: 25px;
+    margin-bottom: 1.563rem;
 }
 
 /* EndPage */
@@ -974,8 +973,8 @@ h5.IntroducePageInfoMoreText{
 }
 
 #EndPageThanks {
-    font-size: 100px;
+    font-size: 6.25rem;
     color: #b3b3b3;
     font-weight: bolder;
-    letter-spacing: 10px;
+    letter-spacing: 0.625rem;
 }
