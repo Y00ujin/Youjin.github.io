@@ -137,8 +137,10 @@ a {color: black;}
 }
 
 #IntroducePageProfileImg{
-    width: 17.125rem;
-    height: 17.125rem;
+    width: 24vh;
+    height: 24vh;
+    margin-right: 6rem;
+    margin-bottom: 6rem;
 }
 
 #IntroducePageInfo {
@@ -162,7 +164,7 @@ a {color: black;}
 
 #IntroducePageTitle{
     font-size: 1.875rem;
-    width: 10vw;
+    width: 12vw;
     height: 5vh;
     font-weight: bolder;
 }
